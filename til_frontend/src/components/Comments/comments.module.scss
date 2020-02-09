@@ -1,0 +1,15 @@
+.container {
+	list-style: none;
+}
+
+.item {
+	margin-bottom: 1.5em;
+}
+
+.authorDate {
+	display: flex;
+	justify-content: space-between;
+	font-size: .8rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}

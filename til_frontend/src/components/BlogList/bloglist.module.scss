@@ -1,0 +1,10 @@
+.container {
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.blog {
+	flex-basis: 100%;
+	margin: 1em 0;
+}

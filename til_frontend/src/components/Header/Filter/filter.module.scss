@@ -1,0 +1,14 @@
+@import '../../../scss/main';
+
+.filterField {
+	height: 40px;
+	flex: 4;
+	padding: 1em;
+	font-family: inherit;
+	border: 0;
+	background-color: $grey-3;
+	font-size: 1rem;
+	color: $white-3;
+	border-radius: 4px;
+	outline: none;
+}

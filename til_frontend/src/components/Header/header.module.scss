@@ -1,0 +1,83 @@
+@import '../../scss/main.scss';
+
+.header {
+	background-color: $grey-1;
+	height: $margin-top;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	flex: 1;
+	color: $white-1;
+	font-weight: 700;
+}
+
+.menu {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+
+	&__burger {
+		font-size: 6px;
+	}
+}
+
+.menu__responsive {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+
+	&__burger {
+		font-size: 6px;
+	}
+}
+
+.link {
+	text-decoration: none;
+	color: $white-1;
+}
+
+.nav, .hide {
+	display: none;
+}
+
+@media all and (min-width: 860px) {
+	.container {
+		width: 50%;
+		max-width: calc(100% - 30% * 1px);
+	}
+
+	.menu__responsive, .hide {
+		display: none;
+	}
+
+	.nav {
+		flex: 2;
+		display: flex;
+		justify-content: flex-end;
+
+		& > * {
+			font-size: .9rem;
+			font-weight: 600;
+			color: $white-1;
+			text-decoration: none;
+			margin-left: 2em;
+
+			&:not(:first-child) {
+				margin-left: 3em;
+			}
+		}
+	}
+}

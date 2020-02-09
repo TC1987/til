@@ -1,0 +1,74 @@
+@import '../../scss/main.scss';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	height: calc(100vh - #{$margin-top});
+	
+	& > * {
+		margin-bottom: 1em;
+	}
+}
+
+.image {
+	height: 400px;
+	width: 100%;
+	background-image: url(../../images/blue-shade.jpg);
+	background-size: cover;
+	border-radius: 4px;
+}
+
+.form {
+	width: 100%;
+
+	&__field {
+		display: block;
+		height: 40px;
+		flex: 4;
+		padding: 1em;
+		font-family: inherit;
+		border: 0;
+		background-color: $grey-3;
+		font-size: 1rem;
+		color: $white-3;
+		border-radius: 4px;
+		outline: none;
+		width: 100%;
+		margin-bottom: .7em;
+	}
+
+	&__button {
+		width: 100%;
+		background-color: $green-2;
+		height: 40px;
+		color: $white-1;
+		border: 0;
+		outline: 0;
+		font-size: .9rem;
+		font-weight: 700;
+		letter-spacing: .5px;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.link {
+	color: $white-1;
+	text-decoration: none;
+}
+
+.validationError {
+	text-align: center;
+	background-color: #C44327;
+	padding: .8em;
+	margin: .6em;
+	font-weight: 500;
+	border-radius: $border-radius;
+}

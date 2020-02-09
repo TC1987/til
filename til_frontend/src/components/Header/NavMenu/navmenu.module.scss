@@ -1,0 +1,93 @@
+@import '../../../scss/main.scss';
+
+.container {
+	width: 100%;
+	list-style: none;
+	color: $white-1;
+	letter-spacing: .5px;
+	padding: 2rem;
+	color: $white-1;
+	text-decoration: none;
+
+	& > * {
+		display: block;
+	}
+}
+
+.menuStats {
+	display: flex;
+	flex-direction: column;
+
+	& > * {
+		margin: 1rem 0;
+	}
+
+	& > *:first-child {
+		margin-top: 0;
+	}
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	// padding: 2em;
+
+	&__image {
+		width: 60px;
+		height: 60px;
+		background-color: white;
+		border-radius: 2px;
+		margin-right: 1em;
+	}
+
+	&__name {
+		&__thin {
+			font-weight: 400;
+		}
+
+		&__user {
+			margin-bottom: 4px;
+		}
+
+		&__status {
+			font-size: .8rem;
+		}
+	}
+}
+
+.links {
+	margin-top: 2rem;
+	
+	&__link {
+		font-weight: 700;
+		width: 100%;
+		display: block;
+		color: white;
+		text-decoration: none;
+		padding: 1rem 0;
+		cursor: pointer;
+	}
+}
+
+.stats {
+	&__item {
+		padding: 1rem 0;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.logout {
+	margin: 2rem 0;
+	// background-color: #D04743;
+	// padding: 1em 2em;
+	color: $white-1;
+	background-color: transparent;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: inherit;
+	text-align: left;
+	font-weight: 700;
+	cursor: pointer;
+}

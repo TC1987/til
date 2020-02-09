@@ -1,0 +1,131 @@
+@import '../../scss/main.scss';
+
+.sidebar {
+	background-color: $grey-2;
+	transform: translateX(100%);
+	position: fixed;
+	top: $margin-top;
+	right: 0;
+	height: calc(100% - #{ $margin-top });
+	transition: all .2s ease-in;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 1.2em 1em;
+	overflow: scroll;
+}
+
+.reducedWidth {
+	width: 240px;
+	background-color: $grey-1;
+	padding: 0;
+}
+
+.show {
+	transform: translateX(0);
+}
+
+.login {
+	background-color: $green-3;
+	padding: 1em 2em;
+	outline: none;
+	border: none;
+	border-radius: $border-radius;
+	color: $white-1;
+	font-size: .7rem;
+	letter-spacing: .7px;
+	width: 100%;
+}
+
+.separator {
+	display: flex;
+	justify-content: center;
+	margin: 2em 0;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .8rem;
+}
+
+.container {
+	// background-image: url(../../images/trees.jpg);
+	// background-size: cover;
+	// background-position: center center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	flex: 1;
+	background-image: url(../../images/leaves.jpg);
+	// background-image: linear-gradient(
+	// 	to right bottom, 
+	// 	rgba($green-3, 0.8), 
+	// 	rgba($green-2, 0.8)),
+	// 	url(../../images/leaves.jpg);
+	background-size: cover;
+	border-radius: $border-radius;
+	color: $white-1;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 1em;
+
+	&__title {
+		font-size: 2rem;
+		margin-bottom: 1em;
+	}
+
+	&__content {
+		letter-spacing: 1px;
+		line-height: 1.5em;
+	}
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	color: $white-1;
+	height: 40px;
+	border: 0;
+	outline: 0;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .5px;
+	border-radius: $border-radius;
+	cursor: pointer;
+
+	&:not(:last-child) {
+		margin-bottom: 1em;
+	}
+
+	&___green {
+		background-color: $green-3;
+	}
+
+	&___light {
+		background-color: $green-1;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $white-1;
+	}
+}
+
+// @media all and (min-width: 860px) {
+// 	.sidebar {
+// 		display: none;
+// 	}
+// }

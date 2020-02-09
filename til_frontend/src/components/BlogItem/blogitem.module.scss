@@ -1,0 +1,73 @@
+@import '../../scss/main.scss';
+
+.content {
+	&__image {
+		width: 100%;
+		display: block;
+		border-radius: $border-radius;
+		cursor: pointer;
+	}
+
+	letter-spacing: .6px;
+
+	& > * {
+		margin: 1.5rem 0;
+	}
+
+	& > *:first-child {
+		margin-top: 0;
+	}
+}
+
+.text {
+	&__date {
+		font-size: .7rem;
+	}
+
+	&__title {
+		text-decoration: none;
+		color: inherit;
+		font-size: 1.2rem;
+		font-weight: 700;
+		cursor: pointer;
+	}
+
+	&__content {
+		line-height: 1.5em;
+	}
+
+	&__author {
+		font-size: .7rem;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
+.stats {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+
+	&__likes, &__commentCount {
+		padding: .8em 0;
+		text-align: center;
+		width: 50%;
+		background-color: $grey-1;
+	}
+
+	&__likes {
+		border-radius: $border-radius 0 0 $border-radius;
+	}
+
+	&__commentCount {
+		border-radius: 0 $border-radius $border-radius 0;
+	}
+}
+
+@media all and (min-width: 860px) {
+	.text {	
+		&__content {
+			line-height: 1.75em;
+		}
+	}
+}
