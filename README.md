@@ -1,5 +1,11 @@
 # TodayILearned
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg" width="100" />
+  <img src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg" width="100" /> 
+  <img src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg" width="100" />
+</p>
+
 <img style="display: inline-block" width="250" alt="visualizer" src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg">
 
 <img style="display: inline-block" width="250" alt="visualizer" src="https://user-images.githubusercontent.com/23731295/74123321-41811900-4b83-11ea-8560-63f9ab82ba0c.jpg">
