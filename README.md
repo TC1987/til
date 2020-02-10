@@ -28,7 +28,7 @@ These instructions will get a copy of the project up and running on your local m
 
 ### Prerequisites
 
-1. Got Node? If so, you're golden! If not, grab it here [node.js](https://nodejs.org/en/download/). It comes with npm which is needed to manage the project's dependencies.
+1. Got Node? If so, you're golden! If not, grab it [here](https://nodejs.org/en/download/). It comes with npm which is needed to manage the project's dependencies and execute scripts.
 2. If you have MongoDB, just grab the connection string and paste it into the .env file created above. If not, get it [here](https://www.mongodb.com/download-center/community).
 
 ## Running Tests
