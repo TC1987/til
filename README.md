@@ -1,6 +1,6 @@
 # TodayILearned
 
-![til](https://user-images.githubusercontent.com/23731295/74113672-93617900-4b5a-11ea-9472-6849c0508f64.jpg)
+<img width="600" alt="visualizer" src="https://user-images.githubusercontent.com/23731295/74113672-93617900-4b5a-11ea-9472-6849c0508f64.jpg">
 
 TIL is a blog that was created to allow users to post whatever they'd like about programming/tech. Both frontend and backend is powered by Javascript (you know, the best language ever :D).
 
