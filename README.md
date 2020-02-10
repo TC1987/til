@@ -1,10 +1,10 @@
 # TodayILearned
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg" width="200" />
-  <img src="https://user-images.githubusercontent.com/23731295/74123321-41811900-4b83-11ea-8560-63f9ab82ba0c.jpg" width="200" /> 
-  <img src="https://user-images.githubusercontent.com/23731295/74123324-45ad3680-4b83-11ea-89b1-f03c7afeeba7.jpg" width="200" />
-  <img src="https://user-images.githubusercontent.com/23731295/74123323-43e37300-4b83-11ea-892d-12425e06e2cc.jpg" width="200" />
+<p align="middle">
+  <img src="https://user-images.githubusercontent.com/23731295/74123318-3e862880-4b83-11ea-9f9b-5dd6589f94ec.jpg" width="220" />
+  <img src="https://user-images.githubusercontent.com/23731295/74123321-41811900-4b83-11ea-8560-63f9ab82ba0c.jpg" width="220" /> 
+  <img src="https://user-images.githubusercontent.com/23731295/74123324-45ad3680-4b83-11ea-89b1-f03c7afeeba7.jpg" width="220" />
+  <img src="https://user-images.githubusercontent.com/23731295/74123323-43e37300-4b83-11ea-892d-12425e06e2cc.jpg" width="220" />
 </p>
 
 TIL is a blog that was created to allow users to post whatever they'd like about programming/tech. Both frontend and backend is powered by Javascript (you know, the best language ever :D).
