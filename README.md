@@ -14,17 +14,22 @@ TIL is a blog that was created to allow users to post whatever they'd like about
 These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
 
 ```
-1. Clone or download this project.
-2. Navigate your way to the project directory.
-3. Type 'npm i'.
-4. Type 'npm start'.
-5. Your browser should automatically open but if it doesn't, make your way to http://localhost:3000
+1. Clone or download both til_frontend and til_backend into the same directory.
+2. Create a .env file in til_backend. Copy and paste the following and replace '###' with a valid MongoDB connection string. If you don't have one, I'd highly recommend creating an account on [Atlas](https://www.mongodb.com/cloud/atlas). It's free!
+	PORT=3001
+	MONGODB_URI=###
+	SECRET=s3cr3t
+3. Navigate to the til_frontend directory using your favorite terminal and type 'npm i'.
+4. Do step 3 again but in the til_backend directory.
+5. Now that all of the project's dependencies are installed, type 'npm run build:local'. It is important that you are in the til_backend directory when you do this.
+6. Open your browser of choice and make your way to http://localhost:3001
 6. Select an algorithm on the left, click 'Start' and gaze in amazement.
 ```
 
 ### Prerequisites
 
-Got Node? If so, you're golden! If not, grab it here [node.js](https://nodejs.org/en/download/). You'll need it for 'npm' which is used to install the project's dependencies and execute the 'start' script.
+1. Got Node? If so, you're golden! If not, grab it here [node.js](https://nodejs.org/en/download/). It comes with npm which is needed to manage the project's dependencies.
+2. If you have MongoDB, just grab the connection string and paste it into the .env file created above. If not, get it [here](https://www.mongodb.com/download-center/community).
 
 ## Running Tests
 
