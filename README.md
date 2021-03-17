@@ -23,7 +23,6 @@ These instructions will get a copy of the project up and running on your local m
 4. Do step 3 again but in the til_backend directory.
 5. Now that all of the project's dependencies are installed, type 'npm run build:local'. It is important that you are in the til_backend directory when you do this.
 6. Open your browser of choice and make your way to http://localhost:3001
-6. Select an algorithm on the left, click 'Start' and gaze in amazement.
 ```
 
 ### Prerequisites
